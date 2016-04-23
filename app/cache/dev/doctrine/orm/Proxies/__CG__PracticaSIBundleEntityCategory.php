@@ -64,10 +64,10 @@ class Category extends \PracticaSIBundle\Entity\Category implements \Doctrine\OR
     public function __sleep()
     {
         if ($this->__isInitialized__) {
-            return array('__isInitialized__', '' . "\0" . 'PracticaSIBundle\\Entity\\Category' . "\0" . 'id', 'products');
+            return array('__isInitialized__', '' . "\0" . 'PracticaSIBundle\\Entity\\Category' . "\0" . 'id', '' . "\0" . 'PracticaSIBundle\\Entity\\Category' . "\0" . 'name', 'products');
         }
 
-        return array('__isInitialized__', '' . "\0" . 'PracticaSIBundle\\Entity\\Category' . "\0" . 'id', 'products');
+        return array('__isInitialized__', '' . "\0" . 'PracticaSIBundle\\Entity\\Category' . "\0" . 'id', '' . "\0" . 'PracticaSIBundle\\Entity\\Category' . "\0" . 'name', 'products');
     }
 
     /**
@@ -230,6 +230,28 @@ class Category extends \PracticaSIBundle\Entity\Category implements \Doctrine\OR
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getProducts', array());
 
         return parent::getProducts();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setName($name)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setName', array($name));
+
+        return parent::setName($name);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getName()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getName', array());
+
+        return parent::getName();
     }
 
 }

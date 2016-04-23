@@ -36,6 +36,13 @@ class User
     private $pass;
 
     /**
+     * @var string
+     *
+     * @ORM\Column(name="credit_number", type="string", length=255, options={"default" = ""})
+     */
+    private $creditCard;
+
+    /**
      * @var bool
      *
      * @ORM\Column(name="admin", type="boolean")

@@ -13,9 +13,10 @@ use Symfony\Component\HttpFoundation\Session\Session;
 Debug::enable();
 class DefaultController extends Controller
 {
-    public function indexAction()
+    public function indexAction(Request $request)
     {
-        return $this->render('PracticaSIBundle:Default:index.html.twig');
+        $session = $request->getSession();
+        return $this->render('PracticaSIBundle:Default:index.html.twig', array('active' => $session->get('active')));
     }
     
     public function loginAction(Request $request)
@@ -24,7 +25,7 @@ class DefaultController extends Controller
         if ($session->get('active')==0){
             return $this->render('PracticaSIBundle:Default:login.html.twig');
         }else{
-            return $this->render('PracticaSIBundle:Default:index.html.twig');
+            return $this->forward('PracticaSIBundle:Default:index');
         }
 
     }
@@ -41,8 +42,15 @@ class DefaultController extends Controller
             return $this->render('PracticaSIBundle:Default:login.html.twig');
         }else{
             $session->set('active', 1);
-            return $this->render('PracticaSIBundle:Default:index.html.twig');
+            return $this->forward('PracticaSIBundle:Default:index');
         }
 
+    }
+
+    public function logoutAction(Request $request)
+    {
+        $session = $request->getSession();
+        $session->set('active', 0);
+        return $this->forward('PracticaSIBundle:Default:index');
     }
 }

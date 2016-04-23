@@ -10,3 +10,7 @@ practica_si_check_login:
     path:     /zona_usuario
     defaults: { _controller: PracticaSIBundle:Default:checkLogin }
 
+practica_si_logout:
+    path:     /logout
+    defaults: { _controller: PracticaSIBundle:Default:logout }
+

@@ -36,6 +36,13 @@ class User
     private $pass;
 
     /**
+     * @var string
+     *
+     * @ORM\Column(name="credit_number", type="string", length=255, options={"default" = ""})
+     */
+    private $creditCard;
+
+    /**
      * @var bool
      *
      * @ORM\Column(name="admin", type="boolean")
@@ -123,5 +130,29 @@ class User
     public function getAdmin()
     {
         return $this->admin;
+    }
+
+    /**
+     * Set creditCard
+     *
+     * @param string $creditCard
+     *
+     * @return User
+     */
+    public function setCreditCard($creditCard)
+    {
+        $this->creditCard = $creditCard;
+
+        return $this;
+    }
+
+    /**
+     * Get creditCard
+     *
+     * @return string
+     */
+    public function getCreditCard()
+    {
+        return $this->creditCard;
     }
 }

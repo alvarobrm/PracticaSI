@@ -124,6 +124,11 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
             return array (  '_controller' => 'PracticaSIBundle\\Controller\\DefaultController::checkLoginAction',  '_route' => 'practica_si_check_login',);
         }
 
+        // practica_si_logout
+        if ($pathinfo === '/logout') {
+            return array (  '_controller' => 'PracticaSIBundle\\Controller\\DefaultController::logoutAction',  '_route' => 'practica_si_logout',);
+        }
+
         // homepage
         if (rtrim($pathinfo, '/') === '') {
             if (substr($pathinfo, -1) !== '/') {
