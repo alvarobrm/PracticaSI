@@ -210,3 +210,4 @@ ce71f9,127.0.0.1,GET,http://localhost:8000/,1461415893,,200
 e41613,127.0.0.1,GET,http://localhost:8000/zona_usuario,1461416192,86c466,200
 86c466,127.0.0.1,POST,http://localhost:8000/zona_usuario,1461416192,,500
 76c0fe,127.0.0.1,GET,http://localhost:8000/,1461416731,,200
+930a63,127.0.0.1,GET,http://localhost:8000/login,1461422311,,200
