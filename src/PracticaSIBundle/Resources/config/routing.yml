@@ -1,0 +1,12 @@
+practica_si_homepage:
+    path:     /
+    defaults: { _controller: PracticaSIBundle:Default:index }
+    
+practica_si_login:
+    path:     /login
+    defaults: { _controller: PracticaSIBundle:Default:login }
+    
+practica_si_check_login:
+    path:     /zona_usuario
+    defaults: { _controller: PracticaSIBundle:Default:checkLogin }
+

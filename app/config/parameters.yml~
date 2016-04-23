@@ -1,0 +1,18 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_driver="pdo_sqlite"
+    database_host=""
+    database_port=""
+    database_name="/home/parallels/Desktop/practicaSI/tiendaSI_DB.sqlite"
+    ; name and path need to be set for SQLite!
+    database_path="/home/parallels/Desktop/practicaSI/tiendaSI_DB.sqlite"
+    database_user=""
+    database_password=""
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: alvaroberrocal@gmail.com
+    mailer_password: bandamostoles
+    secret: ThisTokenIsNotSoSecretChangeIt
+
+
+

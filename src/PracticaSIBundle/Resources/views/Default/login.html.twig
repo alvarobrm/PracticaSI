@@ -1,0 +1,37 @@
+{# empty Twig template #}
+{% extends '::base.html.twig' %}
+
+
+{% block body %}
+    {{ parent() }}
+    <div class="row">
+    <div class="login col s6 offset-s3">
+        <div class="row">
+            <form class="col s12" action="/zona_usuario" method="POST" >
+              <div class="row">
+                <div class="input-field col s12">
+                    <input id="icon_prefix" type="text" class="validate" name="username">
+                  <label for="icon_prefix">Usuario</label>
+                </div>
+              </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="icon_prefix" type="password" class="validate" name="password">
+                        <label for="icon_prefix">Contraseña</label>
+                      </div>
+                </div>
+                <input type="submit" value="Entrar" class="waves-effect waves-light btn" />
+                <a class="waves-effect waves-light btn">Registrarse</a>
+            </form>
+          </div>
+    </div>
+    </div>
+{% endblock %}
+{% block javascripts %}
+    {{ parent() }}
+    <script>
+         $(document).ready(function() {
+                $('input#input_text, textarea#textarea1').characterCounter();
+              });
+    </script>
+{% endblock %}
