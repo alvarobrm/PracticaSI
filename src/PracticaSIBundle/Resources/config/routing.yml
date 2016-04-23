@@ -14,3 +14,10 @@ practica_si_logout:
     path:     /logout
     defaults: { _controller: PracticaSIBundle:Default:logout }
 
+practica_si_singup:
+  path:     /singup
+  defaults: { _controller: PracticaSIBundle:Default:singup }
+
+practica_si_new_user:
+  path:     /nuevo_usuario
+  defaults: { _controller: PracticaSIBundle:Default:newUser }

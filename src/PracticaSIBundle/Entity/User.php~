@@ -131,4 +131,28 @@ class User
     {
         return $this->admin;
     }
+
+    /**
+     * Set creditCard
+     *
+     * @param string $creditCard
+     *
+     * @return User
+     */
+    public function setCreditCard($creditCard)
+    {
+        $this->creditCard = $creditCard;
+
+        return $this;
+    }
+
+    /**
+     * Get creditCard
+     *
+     * @return string
+     */
+    public function getCreditCard()
+    {
+        return $this->creditCard;
+    }
 }

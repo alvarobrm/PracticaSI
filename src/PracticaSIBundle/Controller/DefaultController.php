@@ -53,4 +53,40 @@ class DefaultController extends Controller
         $session->set('active', 0);
         return $this->forward('PracticaSIBundle:Default:index');
     }
+
+    public function singupAction(Request $request, $error = '')
+    {
+        $session = $request->getSession();
+        $session->set('active', 0);
+        return $this->render('PracticaSIBundle:Default:singup.html.twig', array('error'=>$error));
+    }
+
+    public function newUserAction(Request $request){
+        $session = $request->getSession();
+        $username = $request->request->get('username');
+        $pass = $request->request->get('password');
+        $passConfirm = $request->request->get('passwordConfirm');
+        $email = $request->request->get('email');
+        $creditCard = $request->request->get('creditCard');
+        $repository= $this->getDoctrine()->getRepository('PracticaSIBundle:User');
+        $user = $repository->findOneBy(array('username'=>$username));
+        if($pass!=$passConfirm|| $user) {
+            if ($pass!=$passConfirm)
+                $error = "Las contraseñas introducidas no coinciden";
+            elseif ($user)
+                $error = "El usuario indicado ya existe";
+
+            return $this->forward('PracticaSIBundle:Default:singup', array("error"=>$error));
+        }else{
+            $user = new User();
+            $user->setAdmin(false);
+            $user->setUsername($username);
+            $user->setPass($pass);
+            $user->setCreditCard($creditCard);
+            $em = $this->getDoctrine()->getManager();
+            $em->persist($user);
+            $em->flush();
+            return $this->forward('PracticaSIBundle:Default:login');
+        }
+    }
 }

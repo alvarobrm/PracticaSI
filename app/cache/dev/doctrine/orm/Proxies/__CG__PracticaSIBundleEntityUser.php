@@ -64,10 +64,10 @@ class User extends \PracticaSIBundle\Entity\User implements \Doctrine\ORM\Proxy\
     public function __sleep()
     {
         if ($this->__isInitialized__) {
-            return array('__isInitialized__', '' . "\0" . 'PracticaSIBundle\\Entity\\User' . "\0" . 'id', '' . "\0" . 'PracticaSIBundle\\Entity\\User' . "\0" . 'username', '' . "\0" . 'PracticaSIBundle\\Entity\\User' . "\0" . 'pass', '' . "\0" . 'PracticaSIBundle\\Entity\\User' . "\0" . 'admin');
+            return array('__isInitialized__', '' . "\0" . 'PracticaSIBundle\\Entity\\User' . "\0" . 'id', '' . "\0" . 'PracticaSIBundle\\Entity\\User' . "\0" . 'username', '' . "\0" . 'PracticaSIBundle\\Entity\\User' . "\0" . 'pass', '' . "\0" . 'PracticaSIBundle\\Entity\\User' . "\0" . 'creditCard', '' . "\0" . 'PracticaSIBundle\\Entity\\User' . "\0" . 'admin');
         }
 
-        return array('__isInitialized__', '' . "\0" . 'PracticaSIBundle\\Entity\\User' . "\0" . 'id', '' . "\0" . 'PracticaSIBundle\\Entity\\User' . "\0" . 'username', '' . "\0" . 'PracticaSIBundle\\Entity\\User' . "\0" . 'pass', '' . "\0" . 'PracticaSIBundle\\Entity\\User' . "\0" . 'admin');
+        return array('__isInitialized__', '' . "\0" . 'PracticaSIBundle\\Entity\\User' . "\0" . 'id', '' . "\0" . 'PracticaSIBundle\\Entity\\User' . "\0" . 'username', '' . "\0" . 'PracticaSIBundle\\Entity\\User' . "\0" . 'pass', '' . "\0" . 'PracticaSIBundle\\Entity\\User' . "\0" . 'creditCard', '' . "\0" . 'PracticaSIBundle\\Entity\\User' . "\0" . 'admin');
     }
 
     /**
@@ -252,6 +252,28 @@ class User extends \PracticaSIBundle\Entity\User implements \Doctrine\ORM\Proxy\
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getAdmin', array());
 
         return parent::getAdmin();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setCreditCard($creditCard)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setCreditCard', array($creditCard));
+
+        return parent::setCreditCard($creditCard);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getCreditCard()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCreditCard', array());
+
+        return parent::getCreditCard();
     }
 
 }
