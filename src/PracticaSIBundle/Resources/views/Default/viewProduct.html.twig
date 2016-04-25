@@ -1,0 +1,29 @@
+{% extends '::base.html.twig' %}
+
+
+
+{% block body %}
+
+    {% if active == 0 %}
+        {{ parent() }}
+    {% else %}
+        {{ include('::baseUser.html.twig', {'admin':admin}) }}
+    {% endif %}
+
+    <div class="content">
+        <div class="row">
+            <div class="col s12 m4">
+                <img class="responsive-img" src="{{ product.img }}">
+            </div>
+            <div class="col s12 m8">
+                <div class="description">
+                    <p>{{ product.description }}</p>
+                </div>
+                <div class="price">
+                    <p>{{ product.price }}</p>
+                </div>
+                <a class="waves-effect waves-light btn">Añadir al carrito</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}

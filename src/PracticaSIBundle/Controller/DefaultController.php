@@ -7,16 +7,15 @@ use PracticaSIBundle\Entity\Category;
 use PracticaSIBundle\Entity\User;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\Debug\Debug;
 use Symfony\Component\HttpFoundation\Session\Session;
 
-Debug::enable();
+
 class DefaultController extends Controller
 {
     public function indexAction(Request $request)
     {
         $session = $request->getSession();
-        return $this->render('PracticaSIBundle:Default:index.html.twig', array('active' => $session->get('active')));
+        return $this->render('PracticaSIBundle:Default:index.html.twig', array('active' => $session->get('active'), 'admin'=> $session->get('admin')));
     }
     
     public function loginAction(Request $request)
@@ -42,6 +41,7 @@ class DefaultController extends Controller
             return $this->render('PracticaSIBundle:Default:login.html.twig');
         }else{
             $session->set('active', 1);
+            $session->set('admin', $user->getAdmin());
             return $this->forward('PracticaSIBundle:Default:index');
         }
 

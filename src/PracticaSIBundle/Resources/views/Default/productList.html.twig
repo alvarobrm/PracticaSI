@@ -1,0 +1,43 @@
+{% extends '::base.html.twig' %}
+
+
+
+{% block body %}
+
+    {% if active == 0 %}
+        {{ parent() }}
+    {% else %}
+        {{ include('::baseUser.html.twig', {'admin':admin}) }}
+    {% endif %}
+
+    <div class="content">
+        Numero de productos: {{ products|length }}
+
+        {% if products|length  == 0 %}
+            <h2>No hay ningun producto en esta categoría.</h2>
+        {% else %}
+
+        <div class="row">
+             {% for product in products  %}
+
+                    <div class="col s12 m6 l4">
+                        <div class="card blue lighten-5">
+                            <div class="card-image">
+                                <img class="responsive-img product-image" src={{ product.img }}>
+                                <span class="card-title">{{ product.name }}</span>
+                            </div>
+                            <div class="card-content">
+                                <p>{{ product.description }}</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="/ver-producto/{{ product.id }}">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+
+             {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+
+{% endblock %}

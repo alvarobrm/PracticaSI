@@ -139,6 +139,16 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
             return array (  '_controller' => 'PracticaSIBundle\\Controller\\DefaultController::newUserAction',  '_route' => 'practica_si_new_user',);
         }
 
+        // practica_si_products
+        if (0 === strpos($pathinfo, '/categorias') && preg_match('#^/categorias/(?P<category>[^/]++)$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'practica_si_products')), array (  '_controller' => 'PracticaSIBundle\\Controller\\ProductController::showCategoryAction',));
+        }
+
+        // practica_si_view_product
+        if (0 === strpos($pathinfo, '/ver-producto') && preg_match('#^/ver\\-producto/(?P<idProduct>[^/]++)$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'practica_si_view_product')), array (  '_controller' => 'PracticaSIBundle\\Controller\\ProductController::showProductAction',));
+        }
+
         // homepage
         if (rtrim($pathinfo, '/') === '') {
             if (substr($pathinfo, -1) !== '/') {

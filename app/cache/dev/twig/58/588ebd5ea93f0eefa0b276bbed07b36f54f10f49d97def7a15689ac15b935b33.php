@@ -22,20 +22,20 @@ class __TwigTemplate_8f79e1536444d360efa993ba649bd1f8eb2e89e57d639b0ddf45960b03a
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_78f2917e7048bb3addd021a9f78c7dd9973ad19b80a3e195fca91f27f616aabb = $this->env->getExtension("native_profiler");
-        $__internal_78f2917e7048bb3addd021a9f78c7dd9973ad19b80a3e195fca91f27f616aabb->enter($__internal_78f2917e7048bb3addd021a9f78c7dd9973ad19b80a3e195fca91f27f616aabb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PracticaSIBundle:Default:index.html.twig"));
+        $__internal_7e57f5b1ccd602da754329c69352ff50869189bec636e20d188c369d132b3046 = $this->env->getExtension("native_profiler");
+        $__internal_7e57f5b1ccd602da754329c69352ff50869189bec636e20d188c369d132b3046->enter($__internal_7e57f5b1ccd602da754329c69352ff50869189bec636e20d188c369d132b3046_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PracticaSIBundle:Default:index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_78f2917e7048bb3addd021a9f78c7dd9973ad19b80a3e195fca91f27f616aabb->leave($__internal_78f2917e7048bb3addd021a9f78c7dd9973ad19b80a3e195fca91f27f616aabb_prof);
+        $__internal_7e57f5b1ccd602da754329c69352ff50869189bec636e20d188c369d132b3046->leave($__internal_7e57f5b1ccd602da754329c69352ff50869189bec636e20d188c369d132b3046_prof);
 
     }
 
     // line 7
     public function block_body($context, array $blocks = array())
     {
-        $__internal_65c37edb56e585baf9ae3bae383c421180ac6631fe87743c12c42b1671bf0fe7 = $this->env->getExtension("native_profiler");
-        $__internal_65c37edb56e585baf9ae3bae383c421180ac6631fe87743c12c42b1671bf0fe7->enter($__internal_65c37edb56e585baf9ae3bae383c421180ac6631fe87743c12c42b1671bf0fe7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_5508943c576a9c318c97b85982cdc5707b070fb913c0177644c83d26176aae8d = $this->env->getExtension("native_profiler");
+        $__internal_5508943c576a9c318c97b85982cdc5707b070fb913c0177644c83d26176aae8d->enter($__internal_5508943c576a9c318c97b85982cdc5707b070fb913c0177644c83d26176aae8d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 8
         echo "
@@ -50,7 +50,7 @@ class __TwigTemplate_8f79e1536444d360efa993ba649bd1f8eb2e89e57d639b0ddf45960b03a
         } else {
             // line 12
             echo "        ";
-            echo twig_include($this->env, $context, "::baseUser.html.twig");
+            echo twig_include($this->env, $context, "::baseUser.html.twig", array("admin" => (isset($context["admin"]) ? $context["admin"] : $this->getContext($context, "admin"))));
             echo "
     ";
         }
@@ -91,25 +91,29 @@ class __TwigTemplate_8f79e1536444d360efa993ba649bd1f8eb2e89e57d639b0ddf45960b03a
               </li>
             </ul>
           </div>
-                            
+
+    <div class=\"content\">
         <h3>Ofertas</h3>
         <hr>
+    </div>
+                            
+
 
     Hello World!
 
 ";
         
-        $__internal_65c37edb56e585baf9ae3bae383c421180ac6631fe87743c12c42b1671bf0fe7->leave($__internal_65c37edb56e585baf9ae3bae383c421180ac6631fe87743c12c42b1671bf0fe7_prof);
+        $__internal_5508943c576a9c318c97b85982cdc5707b070fb913c0177644c83d26176aae8d->leave($__internal_5508943c576a9c318c97b85982cdc5707b070fb913c0177644c83d26176aae8d_prof);
 
     }
 
-    // line 57
+    // line 61
     public function block_javascripts($context, array $blocks = array())
     {
-        $__internal_bcd557b6195a5d91ca296c5972ed1f51fd201854e1851210479f30773e7a46a7 = $this->env->getExtension("native_profiler");
-        $__internal_bcd557b6195a5d91ca296c5972ed1f51fd201854e1851210479f30773e7a46a7->enter($__internal_bcd557b6195a5d91ca296c5972ed1f51fd201854e1851210479f30773e7a46a7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
+        $__internal_76324e991ebdcedd10f6cf8873d64e3a98e1a8a26efaf9c86d521f744d1d7d59 = $this->env->getExtension("native_profiler");
+        $__internal_76324e991ebdcedd10f6cf8873d64e3a98e1a8a26efaf9c86d521f744d1d7d59->enter($__internal_76324e991ebdcedd10f6cf8873d64e3a98e1a8a26efaf9c86d521f744d1d7d59_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
 
-        // line 58
+        // line 62
         echo "    ";
         $this->displayParentBlock("javascripts", $context, $blocks);
         echo "
@@ -121,7 +125,7 @@ class __TwigTemplate_8f79e1536444d360efa993ba649bd1f8eb2e89e57d639b0ddf45960b03a
        
 ";
         
-        $__internal_bcd557b6195a5d91ca296c5972ed1f51fd201854e1851210479f30773e7a46a7->leave($__internal_bcd557b6195a5d91ca296c5972ed1f51fd201854e1851210479f30773e7a46a7_prof);
+        $__internal_76324e991ebdcedd10f6cf8873d64e3a98e1a8a26efaf9c86d521f744d1d7d59->leave($__internal_76324e991ebdcedd10f6cf8873d64e3a98e1a8a26efaf9c86d521f744d1d7d59_prof);
 
     }
 
@@ -137,7 +141,7 @@ class __TwigTemplate_8f79e1536444d360efa993ba649bd1f8eb2e89e57d639b0ddf45960b03a
 
     public function getDebugInfo()
     {
-        return array (  113 => 58,  107 => 57,  58 => 14,  52 => 12,  46 => 10,  44 => 9,  41 => 8,  35 => 7,  11 => 3,);
+        return array (  117 => 62,  111 => 61,  58 => 14,  52 => 12,  46 => 10,  44 => 9,  41 => 8,  35 => 7,  11 => 3,);
     }
 }
 /* */
@@ -151,7 +155,7 @@ class __TwigTemplate_8f79e1536444d360efa993ba649bd1f8eb2e89e57d639b0ddf45960b03a
 /*     {% if active == 0 %}*/
 /*         {{ parent() }}*/
 /*     {% else %}*/
-/*         {{ include('::baseUser.html.twig') }}*/
+/*         {{ include('::baseUser.html.twig', {'admin':admin}) }}*/
 /*     {% endif %}*/
 /*         <!-- Slider de index-->*/
 /*                             */
@@ -189,9 +193,13 @@ class __TwigTemplate_8f79e1536444d360efa993ba649bd1f8eb2e89e57d639b0ddf45960b03a
 /*               </li>*/
 /*             </ul>*/
 /*           </div>*/
-/*                             */
+/* */
+/*     <div class="content">*/
 /*         <h3>Ofertas</h3>*/
 /*         <hr>*/
+/*     </div>*/
+/*                             */
+/* */
 /* */
 /*     Hello World!*/
 /* */

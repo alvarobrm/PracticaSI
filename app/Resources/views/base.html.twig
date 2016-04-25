@@ -5,6 +5,7 @@
         <title>{% block title %}Welcome!{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
         <!--jQuery-->
@@ -16,17 +17,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!--Icons-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <link rel="stylesheet" href={{ asset('bundles/framework/css/practica.css') }}>
     </head>
     <body>
         {% block body %}
+            <ul id="dropdown2" class="dropdown-content">
+                <li><a href="/categorias/2">Ordenadores</a></li>
+                <li><a href="/categorias/1">Moviles</a></li>
+                <li><a href="/categorias/3">Accesorios</a></li>
+            </ul>
+
             <nav>
-            <div class="nav-wrapper">
+            <div class="nav-wrapper lime accent-2">
               <a href="/" class="brand-logo">Logo</a>
               <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
               <ul class="right hide-on-med-and-down">
                 <li><a href="sass.html">Mi carro</a></li>
-                <li><a href="badges.html">Components</a></li>
                 <li><a href="collapsible.html">Javascript</a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Categorías<i class="material-icons right">arrow_drop_down</i></li>
+
                 <li><a href="/login">Acceso</a></li>
 
               </ul>

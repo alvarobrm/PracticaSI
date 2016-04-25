@@ -21,3 +21,11 @@ practica_si_singup:
 practica_si_new_user:
   path:     /nuevo_usuario
   defaults: { _controller: PracticaSIBundle:Default:newUser }
+
+practica_si_products:
+  path:     /categorias/{category}
+  defaults: { _controller: PracticaSIBundle:Product:showCategory}
+
+practica_si_view_product:
+  path:     /ver-producto/{idProduct}
+  defaults: { _controller: PracticaSIBundle:Product:showProduct}
