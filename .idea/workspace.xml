@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee2ad466-3e95-4edb-9704-496ec4340db2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/baseUser.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/baseUser.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/f5/f5133d3138ee0a22bb210e6f4da21be58d5127e73a379d895d9fe2116ed987a9.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/f5/f5133d3138ee0a22bb210e6f4da21be58d5127e73a379d895d9fe2116ed987a9.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/dev.log" afterPath="$PROJECT_DIR$/app/logs/dev.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PracticaSIBundle/Controller/ProductController.php" afterPath="$PROJECT_DIR$/src/PracticaSIBundle/Controller/ProductController.php" />
     </list>
     <ignored path="practicaSI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="baseUser.html.twig" pinned="false" current-in-tab="false">
+      <file leaf-file-name="baseUser.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/baseUser.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+            <state relative-caret-position="305">
+              <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -72,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProductController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PracticaSIBundle/Controller/ProductController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="522">
@@ -143,8 +139,8 @@
         <option value="$PROJECT_DIR$/src/PracticaSIBundle/Resources/views/Default/viewProduct.html.twig" />
         <option value="$PROJECT_DIR$/src/PracticaSIBundle/Resources/views/Default/productList.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/baseUser.html.twig" />
         <option value="$PROJECT_DIR$/src/PracticaSIBundle/Controller/ProductController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/baseUser.html.twig" />
       </list>
     </option>
   </component>
@@ -408,12 +404,12 @@
       <workItem from="1461423018059" duration="11518000" />
       <workItem from="1461437393964" duration="6322000" />
       <workItem from="1461536072214" duration="252000" />
-      <workItem from="1461604899341" duration="5501000" />
+      <workItem from="1461604899341" duration="5629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30825000" />
+    <option name="totallyTimeSpent" value="30953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1442" height="853" extended-state="6" />
@@ -782,14 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/baseUser.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PracticaSIBundle/Resources/views/Default/viewProduct.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -821,6 +809,14 @@
             <element signature="e#930#956#1#PHP" expanded="true" />
             <element signature="e#1058#1106#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/baseUser.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
+          <folding />
         </state>
       </provider>
     </entry>

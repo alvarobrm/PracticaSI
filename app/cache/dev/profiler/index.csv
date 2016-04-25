@@ -655,3 +655,10 @@ fd166c,127.0.0.1,POST,http://localhost:8000/zona_usuario,1461610317,,200
 c2d893,127.0.0.1,GET,http://localhost:8000/categorias/1,1461610326,,500
 c62d91,127.0.0.1,GET,http://localhost:8000/categorias/1,1461610415,,200
 0f3a52,127.0.0.1,GET,http://localhost:8000/ver-producto/2,1461610421,,200
+367368,127.0.0.1,GET,http://localhost:8000/ver-producto/2,1461610501,,200
+f35ae1,127.0.0.1,GET,http://localhost:8000/ver-producto/2,1461610540,,200
+876e91,127.0.0.1,GET,http://localhost:8000/logout,1461610563,40bebc,200
+40bebc,127.0.0.1,GET,http://localhost:8000/logout,1461610563,,200
+f82af3,127.0.0.1,GET,http://localhost:8000/login,1461610566,,200
+417dcd,127.0.0.1,POST,http://localhost:8000/zona_usuario,1461610574,822a9c,200
+822a9c,127.0.0.1,POST,http://localhost:8000/zona_usuario,1461610574,,200
