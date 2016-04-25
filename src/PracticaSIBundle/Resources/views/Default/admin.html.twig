@@ -1,0 +1,12 @@
+{% extends '::base.html.twig' %}
+
+
+
+{% block body %}
+        {{ include('::baseUser.html.twig', {'admin':admin}) }}
+    <div class="content">
+        <h2>Zona de administración</h2>
+        <hr>
+    </div>
+
+{% endblock %}

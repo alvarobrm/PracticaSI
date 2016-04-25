@@ -89,4 +89,15 @@ class DefaultController extends Controller
             return $this->forward('PracticaSIBundle:Default:login');
         }
     }
+
+
+    public function  adminAction (Request $request){
+        $session = $request->getSession();
+        if ($session->get('active')==1 && $session->get('admin')){
+            return $this->render('PracticaSIBundle:Default:admin.html.twig', array('active' => $session->get('active'), 'admin'=> $session->get('admin')));
+        }else{
+            return $this->render('PracticaSIBundle:Default:index.html.twig', array('active' => $session->get('active'), 'admin'=> $session->get('admin')));
+        }
+
+    }
 }

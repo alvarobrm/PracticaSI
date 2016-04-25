@@ -149,6 +149,11 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
             return $this->mergeDefaults(array_replace($matches, array('_route' => 'practica_si_view_product')), array (  '_controller' => 'PracticaSIBundle\\Controller\\ProductController::showProductAction',));
         }
 
+        // practica_si_admin
+        if ($pathinfo === '/admin') {
+            return array (  '_controller' => 'PracticaSIBundle\\Controller\\DefaultController::adminAction',  '_route' => 'practica_si_admin',);
+        }
+
         // homepage
         if (rtrim($pathinfo, '/') === '') {
             if (substr($pathinfo, -1) !== '/') {

@@ -29,3 +29,8 @@ practica_si_products:
 practica_si_view_product:
   path:     /ver-producto/{idProduct}
   defaults: { _controller: PracticaSIBundle:Product:showProduct}
+
+
+practica_si_admin:
+  path:     /admin
+  defaults: { _controller: PracticaSIBundle:Default:admin}
