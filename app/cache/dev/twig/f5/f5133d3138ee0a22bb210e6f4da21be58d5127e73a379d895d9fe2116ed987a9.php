@@ -19,8 +19,8 @@ class __TwigTemplate_38a387829628acd863af275f7811989ecffad07fb37648fd6dcbf1b1b36
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_2daeb3396a53674f5582496605257b529e5ccda61fa27c2e0696e4bcf6ef1893 = $this->env->getExtension("native_profiler");
-        $__internal_2daeb3396a53674f5582496605257b529e5ccda61fa27c2e0696e4bcf6ef1893->enter($__internal_2daeb3396a53674f5582496605257b529e5ccda61fa27c2e0696e4bcf6ef1893_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::base.html.twig"));
+        $__internal_dc2643d48676d32b9a2f947bbbc7d501562ff02a375ac1ef1c7a944f962381d8 = $this->env->getExtension("native_profiler");
+        $__internal_dc2643d48676d32b9a2f947bbbc7d501562ff02a375ac1ef1c7a944f962381d8->enter($__internal_dc2643d48676d32b9a2f947bbbc7d501562ff02a375ac1ef1c7a944f962381d8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::base.html.twig"));
 
         // line 1
         echo "<!DOCTYPE html>
@@ -68,38 +68,38 @@ class __TwigTemplate_38a387829628acd863af275f7811989ecffad07fb37648fd6dcbf1b1b36
 </html>
 ";
         
-        $__internal_2daeb3396a53674f5582496605257b529e5ccda61fa27c2e0696e4bcf6ef1893->leave($__internal_2daeb3396a53674f5582496605257b529e5ccda61fa27c2e0696e4bcf6ef1893_prof);
+        $__internal_dc2643d48676d32b9a2f947bbbc7d501562ff02a375ac1ef1c7a944f962381d8->leave($__internal_dc2643d48676d32b9a2f947bbbc7d501562ff02a375ac1ef1c7a944f962381d8_prof);
 
     }
 
     // line 5
     public function block_title($context, array $blocks = array())
     {
-        $__internal_cc723930ef9a4780d12e5c9f78acc1ab3f20938c0e1d9fd4b37838664a25e13d = $this->env->getExtension("native_profiler");
-        $__internal_cc723930ef9a4780d12e5c9f78acc1ab3f20938c0e1d9fd4b37838664a25e13d->enter($__internal_cc723930ef9a4780d12e5c9f78acc1ab3f20938c0e1d9fd4b37838664a25e13d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_4e003feeae68280e1459ef92fcb11ae507221800eb92a4f32e18ce35a3010203 = $this->env->getExtension("native_profiler");
+        $__internal_4e003feeae68280e1459ef92fcb11ae507221800eb92a4f32e18ce35a3010203->enter($__internal_4e003feeae68280e1459ef92fcb11ae507221800eb92a4f32e18ce35a3010203_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         echo "Welcome!";
         
-        $__internal_cc723930ef9a4780d12e5c9f78acc1ab3f20938c0e1d9fd4b37838664a25e13d->leave($__internal_cc723930ef9a4780d12e5c9f78acc1ab3f20938c0e1d9fd4b37838664a25e13d_prof);
+        $__internal_4e003feeae68280e1459ef92fcb11ae507221800eb92a4f32e18ce35a3010203->leave($__internal_4e003feeae68280e1459ef92fcb11ae507221800eb92a4f32e18ce35a3010203_prof);
 
     }
 
     // line 6
     public function block_stylesheets($context, array $blocks = array())
     {
-        $__internal_0e887092ed1a8a85c9942fb345d4ea7d74a903de69c1d8cb57952608279fdcd4 = $this->env->getExtension("native_profiler");
-        $__internal_0e887092ed1a8a85c9942fb345d4ea7d74a903de69c1d8cb57952608279fdcd4->enter($__internal_0e887092ed1a8a85c9942fb345d4ea7d74a903de69c1d8cb57952608279fdcd4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_b7cd3fe667ef4891967bbfcbd7146ea2f66217906170861607e3689069a81e13 = $this->env->getExtension("native_profiler");
+        $__internal_b7cd3fe667ef4891967bbfcbd7146ea2f66217906170861607e3689069a81e13->enter($__internal_b7cd3fe667ef4891967bbfcbd7146ea2f66217906170861607e3689069a81e13_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
         
-        $__internal_0e887092ed1a8a85c9942fb345d4ea7d74a903de69c1d8cb57952608279fdcd4->leave($__internal_0e887092ed1a8a85c9942fb345d4ea7d74a903de69c1d8cb57952608279fdcd4_prof);
+        $__internal_b7cd3fe667ef4891967bbfcbd7146ea2f66217906170861607e3689069a81e13->leave($__internal_b7cd3fe667ef4891967bbfcbd7146ea2f66217906170861607e3689069a81e13_prof);
 
     }
 
     // line 24
     public function block_body($context, array $blocks = array())
     {
-        $__internal_aa3aca2c146ad3275845216c9dc852894e04b088a9da93a4f2bed7942f253ed0 = $this->env->getExtension("native_profiler");
-        $__internal_aa3aca2c146ad3275845216c9dc852894e04b088a9da93a4f2bed7942f253ed0->enter($__internal_aa3aca2c146ad3275845216c9dc852894e04b088a9da93a4f2bed7942f253ed0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_6fa0dc4539a7343274c7a97085036222ef73059ac34007388cd5dec819b4a2b0 = $this->env->getExtension("native_profiler");
+        $__internal_6fa0dc4539a7343274c7a97085036222ef73059ac34007388cd5dec819b4a2b0->enter($__internal_6fa0dc4539a7343274c7a97085036222ef73059ac34007388cd5dec819b4a2b0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 25
         echo "            <ul id=\"dropdown2\" class=\"dropdown-content\">
@@ -113,7 +113,7 @@ class __TwigTemplate_38a387829628acd863af275f7811989ecffad07fb37648fd6dcbf1b1b36
               <a href=\"/\" class=\"brand-logo\">Logo</a>
               <a href=\"#\" data-activates=\"mobile-demo\" class=\"button-collapse\"><i class=\"material-icons\">menu</i></a>
               <ul class=\"right hide-on-med-and-down\">
-                <li><a href=\"sass.html\">Mi carro</a></li>
+                <li><a href=\"sass.html\"><i class=\"material-icons left\">shopping_cart</i>Mi carro</a></li>
                 <li><a href=\"collapsible.html\">Javascript</a></li>
                 <li><a class=\"dropdown-button\" href=\"#!\" data-activates=\"dropdown2\">Categorías<i class=\"material-icons right\">arrow_drop_down</i></li>
 
@@ -130,15 +130,15 @@ class __TwigTemplate_38a387829628acd863af275f7811989ecffad07fb37648fd6dcbf1b1b36
       </nav>
         ";
         
-        $__internal_aa3aca2c146ad3275845216c9dc852894e04b088a9da93a4f2bed7942f253ed0->leave($__internal_aa3aca2c146ad3275845216c9dc852894e04b088a9da93a4f2bed7942f253ed0_prof);
+        $__internal_6fa0dc4539a7343274c7a97085036222ef73059ac34007388cd5dec819b4a2b0->leave($__internal_6fa0dc4539a7343274c7a97085036222ef73059ac34007388cd5dec819b4a2b0_prof);
 
     }
 
     // line 52
     public function block_javascripts($context, array $blocks = array())
     {
-        $__internal_66e6f00d97d97a2e5a3472bd1336501a315e20c178864f5ffde0b6a2bdf8bb1d = $this->env->getExtension("native_profiler");
-        $__internal_66e6f00d97d97a2e5a3472bd1336501a315e20c178864f5ffde0b6a2bdf8bb1d->enter($__internal_66e6f00d97d97a2e5a3472bd1336501a315e20c178864f5ffde0b6a2bdf8bb1d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
+        $__internal_21275a2f4688d3d15fe63ef811914c0759471bd3b4c7b856819bcf335530cb81 = $this->env->getExtension("native_profiler");
+        $__internal_21275a2f4688d3d15fe63ef811914c0759471bd3b4c7b856819bcf335530cb81->enter($__internal_21275a2f4688d3d15fe63ef811914c0759471bd3b4c7b856819bcf335530cb81_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
 
         // line 53
         echo "            <script>
@@ -150,7 +150,7 @@ class __TwigTemplate_38a387829628acd863af275f7811989ecffad07fb37648fd6dcbf1b1b36
             </script>
         ";
         
-        $__internal_66e6f00d97d97a2e5a3472bd1336501a315e20c178864f5ffde0b6a2bdf8bb1d->leave($__internal_66e6f00d97d97a2e5a3472bd1336501a315e20c178864f5ffde0b6a2bdf8bb1d_prof);
+        $__internal_21275a2f4688d3d15fe63ef811914c0759471bd3b4c7b856819bcf335530cb81->leave($__internal_21275a2f4688d3d15fe63ef811914c0759471bd3b4c7b856819bcf335530cb81_prof);
 
     }
 
@@ -204,7 +204,7 @@ class __TwigTemplate_38a387829628acd863af275f7811989ecffad07fb37648fd6dcbf1b1b36
 /*               <a href="/" class="brand-logo">Logo</a>*/
 /*               <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>*/
 /*               <ul class="right hide-on-med-and-down">*/
-/*                 <li><a href="sass.html">Mi carro</a></li>*/
+/*                 <li><a href="sass.html"><i class="material-icons left">shopping_cart</i>Mi carro</a></li>*/
 /*                 <li><a href="collapsible.html">Javascript</a></li>*/
 /*                 <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Categorías<i class="material-icons right">arrow_drop_down</i></li>*/
 /* */

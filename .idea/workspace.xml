@@ -2,25 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee2ad466-3e95-4edb-9704-496ec4340db2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tiendaDB.db" afterPath="$PROJECT_DIR$/app/tiendaDB.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/baseUser.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/baseUser.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/46/5b5b435d5072616374696361534942756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c657223636865636b4c6f67696e416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/46/5b5b435d5072616374696361534942756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c657223636865636b4c6f67696e416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/57/5b5b435d5072616374696361534942756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/57/5b5b435d5072616374696361534942756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/96/5b5b435d5072616374696361534942756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/96/5b5b435d5072616374696361534942756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/df/5b5b435d5072616374696361534942756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c6572236c6f67696e416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/df/5b5b435d5072616374696361534942756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c6572236c6f67696e416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevUrlGenerator.php" afterPath="$PROJECT_DIR$/app/cache/dev/appDevUrlGenerator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevUrlMatcher.php" afterPath="$PROJECT_DIR$/app/cache/dev/appDevUrlMatcher.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/58/588ebd5ea93f0eefa0b276bbed07b36f54f10f49d97def7a15689ac15b935b33.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/58/588ebd5ea93f0eefa0b276bbed07b36f54f10f49d97def7a15689ac15b935b33.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/f5/f5133d3138ee0a22bb210e6f4da21be58d5127e73a379d895d9fe2116ed987a9.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/f5/f5133d3138ee0a22bb210e6f4da21be58d5127e73a379d895d9fe2116ed987a9.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/dev.log" afterPath="$PROJECT_DIR$/app/logs/dev.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PracticaSIBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/PracticaSIBundle/Controller/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PracticaSIBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/PracticaSIBundle/Resources/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PracticaSIBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/PracticaSIBundle/Resources/views/Default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PracticaSIBundle/Controller/ProductController.php" afterPath="$PROJECT_DIR$/src/PracticaSIBundle/Controller/ProductController.php" />
     </list>
     <ignored path="practicaSI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,8 +43,8 @@
       <file leaf-file-name="baseUser.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/baseUser.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="233">
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -77,23 +65,24 @@
       <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="41" column="19" selection-start-line="24" selection-start-column="12" selection-end-line="41" selection-end-column="19" />
+            <state relative-caret-position="414">
+              <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="89" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProductController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PracticaSIBundle/Controller/ProductController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="522">
-              <caret line="29" column="60" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
+              <caret line="29" column="176" selection-start-line="29" selection-start-column="176" selection-end-line="29" selection-end-column="176" />
               <folding>
                 <element signature="e#48#84#0#PHP" expanded="true" />
                 <element signature="e#464#490#1#PHP" expanded="true" />
                 <element signature="e#595#643#0#PHP" expanded="true" />
-                <element signature="e#897#923#1#PHP" expanded="true" />
+                <element signature="e#930#956#1#PHP" expanded="true" />
+                <element signature="e#1058#1106#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,7 +100,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="productList.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="productList.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PracticaSIBundle/Resources/views/Default/productList.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
@@ -148,14 +137,14 @@
         <option value="$PROJECT_DIR$/src/PracticaSIBundle/Resources/views/Default/singup.html.twig" />
         <option value="$PROJECT_DIR$/src/PracticaSIBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/PracticaSIBundle/Controller/CategoryController.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/baseUser.html.twig" />
         <option value="$PROJECT_DIR$/src/PracticaSIBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/web/bundles/framework/css/practica.css" />
         <option value="$PROJECT_DIR$/src/PracticaSIBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/PracticaSIBundle/Controller/ProductController.php" />
         <option value="$PROJECT_DIR$/src/PracticaSIBundle/Resources/views/Default/viewProduct.html.twig" />
         <option value="$PROJECT_DIR$/src/PracticaSIBundle/Resources/views/Default/productList.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/baseUser.html.twig" />
+        <option value="$PROJECT_DIR$/src/PracticaSIBundle/Controller/ProductController.php" />
       </list>
     </option>
   </component>
@@ -419,15 +408,15 @@
       <workItem from="1461423018059" duration="11518000" />
       <workItem from="1461437393964" duration="6322000" />
       <workItem from="1461536072214" duration="252000" />
-      <workItem from="1461604899341" duration="4849000" />
+      <workItem from="1461604899341" duration="5501000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30173000" />
+    <option name="totallyTimeSpent" value="30825000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="24" width="1442" height="853" extended-state="7" />
+    <frame x="-1" y="24" width="1442" height="853" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18611111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -759,14 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/baseUser.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/bundles/framework/css/practica.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -785,14 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="41" column="19" selection-start-line="24" selection-start-column="12" selection-end-line="41" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PracticaSIBundle/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -801,16 +774,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PracticaSIBundle/Controller/ProductController.php">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="60" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
-          <folding>
-            <element signature="e#48#84#0#PHP" expanded="true" />
-            <element signature="e#464#490#1#PHP" expanded="true" />
-            <element signature="e#595#643#0#PHP" expanded="true" />
-            <element signature="e#897#923#1#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="414">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/baseUser.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -830,6 +806,20 @@
           <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
           <folding>
             <element signature="e#12#28#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PracticaSIBundle/Controller/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="176" selection-start-line="29" selection-start-column="176" selection-end-line="29" selection-end-column="176" />
+          <folding>
+            <element signature="e#48#84#0#PHP" expanded="true" />
+            <element signature="e#464#490#1#PHP" expanded="true" />
+            <element signature="e#595#643#0#PHP" expanded="true" />
+            <element signature="e#930#956#1#PHP" expanded="true" />
+            <element signature="e#1058#1106#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
